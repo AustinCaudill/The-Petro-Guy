@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+				</header>
+
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+          <article class="post featured">
+            <header class="major">
+              <h2><a href="#">All things Petro</a></h2>
+              <p>A collection of my blog posts found scattered the internet. Where applicable, external links are indicated with an arrow and text upon mouse hover.
+							</p>
+            </header>
+						<p>
+
+
+							<h2>Topics by Post Count</h2>
+							<ul>
+								{% assign categories_list = site.categories %}
+								{% if categories_list.first[0] == null %}
+								{% for category in categories_list %}
+								<!-- <a href="/Topics/#{{ category | url_escape | prepend site_url }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> | -->
+								{% endfor %}
+								{% else %}
+								{% for category in categories_list %}
+								<a href="/topics/#{{ category[0] | url_escape | site_url }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> |
+								{% endfor %}
+								{% endif %}
+								{% assign categories_list = nil %}
+							</ul>
+
+
+
+						</p>
+
+
+          </article>
+					<!-- Post -->
+  			{% include posts.html %}
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+			<!-- Scripts -->
+			{% include scripts-main.html %}
+				{% include tracking.html %}
+
+	</body>
+</html>

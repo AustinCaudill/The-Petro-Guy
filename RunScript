@@ -1,0 +1,31 @@
+#!/bin/bash
+
+
+###########-------Updateing & Troubleshooting-------###########
+# Report version & update Jekyll (IF NEEDED?)
+# jekyll -v
+# gem update jekyll
+# Used the command below to solve issues with gem public_suffix not being found.
+# bundle update --all
+###############################################################
+
+
+#####################################
+# For macos
+cd "Google Drive"/"Website Storage"/thepetroguy
+
+# For Windows
+# cd Desktop/"Google Drive"/"Website Storage"/thepetroguy
+#####################################
+
+
+# Start Test Server
+# http://localhost:4000
+ bundle exec jekyll serve
+
+# Use command below for generating ready-to-upload website files.
+# Used here for enabling insertion of Google Analytics code and Disqus.
+# For macos: JEKYLL_ENV=production bundle exec jekyll build
+# For Windows: set jekyll_env=production
+#               bundle exec jekyll serve
+# To revert:    set JEKYLL_ENV=development

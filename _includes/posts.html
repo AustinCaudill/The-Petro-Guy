@@ -1,0 +1,43 @@
+<section class="posts">
+  {% for post in site.posts limit:24 %}
+  {% assign mod3 = forloop.index | modulo: 3 %}
+    <article>
+      {% if post.external_url %}
+      <header>
+        <span class="date">{{ post.date | date_to_string }}</span>
+        <h2><a href="{{ post.external_url }}" target="blank" rel="canonical">{{ post.title }}</a></h2>
+      </header>
+      <a href="{{ post.external_url }}" class="image fit" target="blank" rel="canonical"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+      <p>{{ post.excerpt }}</p>
+      <ul class="actions">
+        <li><a href="{{ post.external_url }}" class="button" title="Link to external website" target="blank" rel="canonical">Full Story  <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
+      </ul>
+      {% else %}
+      <header>
+        <span class="date">{{ post.date | date_to_string }}</span>
+        <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+      </header>
+      <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+      <p>{{ post.excerpt }}</p>
+      <ul class="actions">
+        <li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+      </ul>
+      {% endif %}
+    </article>
+    {% if mod3 == 3 %}
+    <article>
+      <header>
+        <span class="date">Sponsored</span>
+        <h2><a href="https://tkcglobalconsulting.com/index.php/storage-terminal-risk-assessment-process/" target="blank" rel="canonical">Storage Terminal Risk Assessment Process</a></h2>
+      </header>
+      <a href="https://tkcglobalconsulting.com/index.php/storage-terminal-risk-assessment-process/" class="image fit" target="blank" rel="canonical"><img src="https://tkcglobalconsulting.com/wp-content/uploads/2020/04/Picture1.png" alt="" /></a>
+      <p>Are your terminals ready for the influx of crude oil and petrochemical product storage needs resulting from low oil demand? Don't wait for an incident to occur to expose your storage terminal's weaknesses!</p>
+      <ul class="actions">
+        <li><a href="https://tkcglobalconsulting.com/index.php/storage-terminal-risk-assessment-process/" class="button" title="Link to external website" target="blank" rel="canonical">Full Story  <i class="fa fa-ad"></i></a></li>
+      </ul>
+
+    </article>
+    {% endif %}
+  {% endfor %}
+
+</section>
