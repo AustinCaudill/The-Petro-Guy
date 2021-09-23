@@ -1,5 +1,8 @@
 <section class="posts">
   {% for post in site.posts limit:24 %}
+  {% if post.categories contains 'Data Science' %}
+    <!-- Do nothing -->
+   {% else %}
   {% assign mod3 = forloop.index | modulo: 3 %}
     <article>
       {% if post.external_url %}
@@ -37,6 +40,7 @@
       </ul>
 
     </article>
+    {% endif %}
     {% endif %}
   {% endfor %}
 

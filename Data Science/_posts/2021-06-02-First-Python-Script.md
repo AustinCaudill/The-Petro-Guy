@@ -9,5 +9,5 @@ external_url: https://www.linkedin.com/posts/austincaudill_python-programming-gi
 external_site: LinkedIN
 sitemap: false
 
-categories: [Personal Improvement, Programming]
+categories: [Personal Improvement, Programming, Data Science]
 ---

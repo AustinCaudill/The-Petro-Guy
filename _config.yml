@@ -71,3 +71,7 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old, _EXCLUDES, RunScript]
+
+data_science:
+ - Category: Data Science
+ - Category: Programming

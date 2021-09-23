@@ -33,8 +33,8 @@
 
           <article class="post featured">
             <header class="major">
-              <h2><a href="#">All things Petro</a></h2>
-              <p>A collection of my blog posts found scattered across the internet. Where applicable, external links are indicated with an arrow and text upon mouse hover.
+              <h2><a href="#">All things Data Science</a></h2>
+              <p>A comprehensive portfolio of my forays into the world of Data Science, Python Programming, Artificial Intelligence, and Machine Learning. Where applicable, external links are indicated with an arrow and text upon mouse hover.
 							</p>
             </header>
 						<p>
@@ -42,15 +42,13 @@
 
 							<h2>Topics by Post Count</h2>
 							<ul>
-								{% assign categories_list = site.categories %}
+								{% assign categories_list = site.data_science.Category %}
 								{% if categories_list.first[0] == null %}
 								{% for category in categories_list %}
 								<!-- <a href="/Topics/#{{ category | url_escape | prepend site_url }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> | -->
 								{% endfor %}
 								{% else %}
-								{% for category in categories_list != 'data-science' %}
 								<a href="/topics/#{{ category[0] | url_escape | site_url }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> |
-								{% endfor %}
 								{% endif %}
 								{% assign categories_list = nil %}
 							</ul>
@@ -62,7 +60,7 @@
 
           </article>
 					<!-- Post -->
-  			{% include posts.html %}
+  			{% include posts-ds.html %}
 
 					</div>
 

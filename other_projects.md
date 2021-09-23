@@ -67,8 +67,4 @@ description: When building a website it's helpful to see what the focus of your 
   </table>
 </div>
 <br />
-<a href="http://www.austinsellsdallas.com" target="blank"><span class="image right"><img src="{{ "/media/rhadfw.png" | absolute_url }}" alt="" /></span></a>
-<h2>Austin Caudill, Realtor &reg;</h2>
-<h3>Rogers Healy and Associates</h3>
-Offering real estate services to buyers, sellers, landlords, tenants/renters, etc.
-<br /><a href="http://www.austinsellsdallas.com" target="blank">See our listings.</a>
+
