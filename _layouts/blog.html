@@ -48,7 +48,7 @@
 								<!-- <a href="/Topics/#{{ category | url_escape | prepend site_url }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> | -->
 								{% endfor %}
 								{% else %}
-								{% for category in categories_list != 'data-science' %}
+								{% for category in categories_list != 'Data Science' %}
 								<a href="/topics/#{{ category[0] | url_escape | site_url }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> |
 								{% endfor %}
 								{% endif %}

@@ -1,5 +1,5 @@
 <section class="posts">
-  {% for post in site.categories.['Data Science'] limit:24 %}
+  {% for post in site.tags.['Data Science'] limit:24 %}
   {% assign mod3 = forloop.index | modulo: 3 %}
   <article>
     {% if post.external_url %}

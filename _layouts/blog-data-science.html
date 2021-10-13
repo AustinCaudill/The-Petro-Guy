@@ -42,13 +42,15 @@
 
 							<h2>Topics by Post Count</h2>
 							<ul>
-								{% assign categories_list = site.data_science.Category %}
+								{% assign categories_list = site.categories %}
 								{% if categories_list.first[0] == null %}
 								{% for category in categories_list %}
 								<!-- <a href="/Topics/#{{ category | url_escape | prepend site_url }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a> | -->
 								{% endfor %}
 								{% else %}
+								{% for post in site.tag.['Data Science'] %}
 								<a href="/topics/#{{ category[0] | url_escape | site_url }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a> |
+								{% endfor %}
 								{% endif %}
 								{% assign categories_list = nil %}
 							</ul>

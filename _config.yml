@@ -1,7 +1,7 @@
 # Site
 title:              The Petro Guy
 bio:                'Experienced petroleum engineer and licensed real estate agent located in Dallas, Texas.'
-description:        "The personal portfolio of Austin Caudill; petroleum engineer and licensed real estate agent."
+description:        "The personal portfolio of Austin Caudill; Petroleum Engineer and Data Scientist."
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.thepetroguy.com" # the base hostname & protocol for your site
@@ -71,7 +71,3 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old, _EXCLUDES, RunScript]
-
-data_science:
- - Category: Data Science
- - Category: Programming
