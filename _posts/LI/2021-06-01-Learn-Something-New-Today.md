@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learn Something New Today"
-date:   2021-1060-01
+date:   2021-06-01
 excerpt: "LinkedIn is one of the best #learning platforms out there, and here's why:
 
 ✔️ It teaches the value of expanding your network and allows you to practice interacting with others in a professional setting,

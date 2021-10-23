@@ -12,6 +12,6 @@ external_url: https://www.linkedin.com/posts/austincaudill_github-austincaudill2
 external_site: LinkedIN
 sitemap: false
 
-categories: [Personal Improvement, Programming, Data Science]
-tag: Data Science
+categories: []
+tags: [Data Science, Python]
 ---
