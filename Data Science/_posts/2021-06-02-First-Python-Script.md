@@ -8,6 +8,7 @@ image: "/media/cover photos/LI/first-python-script.png"
 external_url: https://www.linkedin.com/posts/austincaudill_python-programming-github-activity-6806641700518326272-OtvW
 external_site: LinkedIN
 sitemap: false
+repo_url: https://github.com/AustinCaudill/ClassCentral-DS-Course-Scraping
 
 categories: []
 tags: [Data Science, Python]

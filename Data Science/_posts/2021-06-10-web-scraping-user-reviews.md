@@ -9,7 +9,8 @@ image: "/media/cover photos/LI/GA-course-review-wordcloud.jpeg"
 external_url: https://www.linkedin.com/posts/austincaudill_python-oilandgas-datascience-activity-6808793755949248512-JXn6
 external_site: LinkedIN
 sitemap: false
+repo_url: https://github.com/AustinCaudill/GA-Review-Analysis
 
 categories: []
-tags: [Data Science, Python]
+tags: [Data Science, Python, NLTK]
 ---

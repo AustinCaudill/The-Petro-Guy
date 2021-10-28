@@ -11,7 +11,8 @@ image: "/media/cover photos/LI/kaggle github page.JPG"
 external_url: https://www.linkedin.com/posts/austincaudill_github-austincaudill2021-30-days-of-ml-challenge-activity-6838855101029904384-3aPN
 external_site: LinkedIN
 sitemap: false
+repo_url: https://github.com/AustinCaudill/2021-30-Days-of-ML-Challenge
 
 categories: []
-tags: [Data Science, Python]
+tags: [Data Science, Python, Machine Learning]
 ---

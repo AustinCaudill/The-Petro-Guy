@@ -11,7 +11,10 @@
     <p>{{ post.excerpt }}</p>
     <ul class="actions">
       <li><a href="{{ post.external_url }}" class="button" title="Link to external website" target="blank" rel="canonical">Full Story  <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
+    {% if post.repo_url %}
+      <li><a href="{{ post.repo_url }}" class="button" title="Link to project repo" target="blank" rel="canonical">Repo  <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
     </ul>
+    {% endif %}
     {% else %}
     <header>
       <span class="date">{{ post.date | date_to_string }}</span>
@@ -21,7 +24,10 @@
     <p>{{ post.excerpt }}</p>
     <ul class="actions">
       <li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+    {% if post.repo_url %}
+      <li><a href="{{ post.repo_url }}" class="button" title="Link to project repo" target="blank" rel="canonical">Repo  <i class="fa fa-external-link-square" aria-hidden="true"></i></a></li>
     </ul>
+    {% endif %}
     {% endif %}
   </article>
   {% if mod3 == 3 %}
