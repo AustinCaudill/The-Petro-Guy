@@ -26,6 +26,6 @@ cd "Google Drive"/"Website Storage"/thepetroguy
 # Use command below for generating ready-to-upload website files.
 # Used here for enabling insertion of Google Analytics code and Disqus.
 # For macos: JEKYLL_ENV=production bundle exec jekyll build
-# For Windows: set jekyll_env=production
-#               bundle exec jekyll serve
+# For Windows: set jekyll_env=production 
+# bundle exec jekyll build
 # To revert:    set JEKYLL_ENV=development

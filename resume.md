@@ -20,6 +20,8 @@ sitemap:
     height="1000px"
     width="100%"></iframe>
 
+<center><br /><a href="/training/">Training Addendum</a> </center>
+
 <center><br />Please do not use my contact information for unsolicited or unrelated offers. </center>
 
 
