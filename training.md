@@ -13,5 +13,6 @@ description: An overview of the training and certification courses I have partak
 <li>Well Integrity for Fracturing and Re-Fracturing: What is Needed and Why?</li>
 <li>The Role of Inflow-Control Devices in Optimizing Horizontal Well Performance</li>
 <li>Well Plug and Abandonment</li>
+<li>Completion Solutions for Multi-Stage Stimulation of Unconventional Resources</li>
 </ul>
 
