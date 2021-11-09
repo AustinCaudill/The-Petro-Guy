@@ -14,5 +14,5 @@ description: An overview of the training and certification courses I have partak
 <li>The Role of Inflow-Control Devices in Optimizing Horizontal Well Performance</li>
 <li>Well Plug and Abandonment</li>
 <li>Completion Solutions for Multi-Stage Stimulation of Unconventional Resources</li>
+<li>Data Science and Analytics applications in Petroleum Engineering – A Kick Start in Python</li>
 </ul>
-
